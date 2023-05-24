@@ -135,7 +135,7 @@ public class ReactNativeUnity {
         group.addView(unityPlayer, 0, layoutParams);
         unityPlayer.windowFocusChanged(true);
         unityPlayer.requestFocus();
-        unityPlayer.resume();
+        //unityPlayer.resume();
     }
 
     public interface UnityPlayerCallback {
